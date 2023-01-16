@@ -7,11 +7,12 @@ public class Radio {
 
 
     public Radio() {
-maxStation = 9;
+        maxStation = 9;
 
     }
-    public Radio(int numberOfStations){
-maxStation = numberOfStations - 1;
+
+    public Radio(int numberOfStations) {
+        maxStation = numberOfStations - 1;
     }
 
     public void nextStation() {
